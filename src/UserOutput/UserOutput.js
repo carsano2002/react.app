@@ -6,7 +6,7 @@ const userOutput = ( props ) => {
     return (
         <div className="UserOutput">
             <p>UserOutput component</p>
-            <p>Username: njbbaer</p>
+            <p>Username: {props.username}</p>
         </div>
     )
 };
